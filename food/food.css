@@ -1,0 +1,166 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    font-size: 1rem;
+   
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+#logo img{
+height: 40px;
+width: 40px;
+margin: 10px;
+opacity: 1;
+border-radius: 40px;
+}
+#navbar ul{
+    display: flex;
+    margin: 350px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+   padding: 10px 10px;
+   border-radius: 2px;
+   text-decoration: none;
+   opacity: 0.8;
+}
+#navbar ul li a:hover{
+    color: black;
+   border-radius: 25px;
+   background-color: white;
+   opacity: 1;
+}
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 250px ;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background-image: url(wp7833513-anime-restaurant-wallpapers.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.9;
+}
+#home h1{
+    color: white;
+    align-items: center;
+}
+#home p{
+    color: white;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    padding: 10px;
+    margin: 10px;
+    border: 10px ;
+    border-radius: 30px;
+    opacity: 1;
+    cursor: pointer;
+   
+}
+
+
+
+
+.services{
+    margin-top: 100px;
+    display: flex;
+}
+#serve{
+    display: flex;
+}
+
+.box1{
+    
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    opacity: 0.8;
+  
+}
+.box1:hover{  
+    opacity: 1;
+  
+}
+.box2{
+  
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    opacity: 0.8;
+  
+}
+.box2:hover{  
+    opacity: 1;
+  
+}
+.box3{
+   
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    opacity: 0.8;
+  
+}
+.box3:hover{  
+    opacity: 1;
+  
+}
+#serve .box1 img{
+    border-radius: 70px;
+    height: 500px;
+}
+#serve .box2 img{
+    border-radius: 70px;
+    height: 500px;
+}
+#serve .box3 img{
+    border-radius: 70px;
+    height: 500px;
+}
+.secondary{
+    font-size: 1.5rem;
+}
+.primary{
+    font-size: 2.5rem;
+    padding: 15px ;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+    border: 10px ;
+    border-radius: 30px;
+    opacity: 0.8;  
+}
+.center{
+       text-align: center ;
+}
